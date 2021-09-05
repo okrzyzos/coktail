@@ -1,0 +1,42 @@
+.coktailCard-container
+    transition: all 0.4s ease-in-out 0s
+    height: 23em
+    width: 15em
+    border: 1px solid gray
+    
+    
+    .coktailCard
+    padding: 1em
+    border-radius: 1em
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin: 0.5em
+
+
+    .ingredientList
+        list-style: none
+        display: flex
+        align-items: flex-start
+        flex-direction: column
+        color: gray
+        line-height: 20px
+
+
+    .coktailImage
+        width: 10em
+        height: 12em
+
+    .coktailName
+        font-size: 1.3em
+        text-align: center
+
+    .separator
+        width: 12em
+        height: 0.1em
+        background: gray
+
+.coktailCard-container:hover
+    box-shadow: 4px 4px 4px black
+    opacity: 0.9
+    transform: translate(0,-0.2em)
